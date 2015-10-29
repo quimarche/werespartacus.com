@@ -1,2 +1,111 @@
+/*
+Author: Dave
+Description: You smell like a rhinoceros
+Theme Name: We're Spartacus
+Version: 1
+*/
+
+* {
+ color: #EEE685;
+ margin: 0;
+ padding: 0;
+}
+
+a {
+ text-decoration: none;
+}
+
 body {
+ background-color: #000;
+ font-family: comic sans, comic sans ms, cursive;
+ font-size: 110%;
+ margin: 25px 0;
+}
+
+div {
+}
+
+html {
+}
+
+img {
+ border: none;
+}
+
+li {
+ list-style: none;
+}
+
+p {
+}
+
+ul {
+}
+
+div.body {
+ border: 2px solid black;
+ margin: 0 auto;
+ padding: 0 25px;
+ width: 894px;
+}
+
+div.head {
+}
+
+div.head p {
+ text-align: center;
+}
+
+div.main {
+}
+
+div.menu {
+ float: left;
+ width: 200px;
+}
+
+div.menu p {
+ border-bottom: 2px solid;
+ width: 90%;
+}
+
+div.menu a:hover {
+ border-bottom: 2px solid;
+}
+
+div.menu ul li {
+ text-indent: 25px;
+}
+
+div.menu ul li ul li {
+ text-indent: 50px;
+}
+
+div.post {
+ float: right;
+ width: 625px;
+}
+
+div.post p {
+ border-bottom: 2px solid;
+}
+
+div.page {
+}
+
+div.page p {
+ border-bottom: none;
+ width: 100%;
+}
+
+div.page p a img {
+ vertical-align: middle;
+}
+
+div.foot {
+ clear: both;
+}
+
+div.foot p {
+ text-align: right;
 }
