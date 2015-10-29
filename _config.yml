@@ -5,5 +5,4 @@ defaults:
         values:
             layout: "default"
 
-baseurl: "/werespartacus.com"
 title: "werespartacus.com"
