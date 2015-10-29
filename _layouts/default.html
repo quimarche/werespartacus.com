@@ -6,6 +6,27 @@
         <title>{{ site.title }}</title>
     </head>
     <body>
-        {{ content }}
+        <div class="body">
+            <div class="head">
+                <p><img alt="<?php bloginfo('name'); ?>" src="{{ site.baseurl }}/assets/wsbanner.png"></p>
+            </div>
+            <div class="main">
+                <div class="menu">
+                    <p>Pages</p>
+                    <ul>
+                        Badum tish!
+                    </ul>
+                </div>
+                <div class="post">
+                    <p>Wait for it, wait for it...</p>
+                    <div class="page">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+            <div class="foot">
+                <p>&copy; {{ site.time | date: "%Y" }} werespartacus.com</p>
+            </div>
+        </div>
     </body>
 </html>
