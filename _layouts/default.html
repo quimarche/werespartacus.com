@@ -23,7 +23,7 @@
                     </ul>
                 </div>
                 <div class="post">
-                    <p>{{ page.title }}</p>
+                    <p>{{ page.title | replace: "&ndash;", "" }}</p>
                     <div class="page">
                         {{ content }}
                     </div>
