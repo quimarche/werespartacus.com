@@ -5,6 +5,11 @@ Theme Name: We're Spartacus
 Version: 1
 */
 
+@font-face {
+  font-family: "Capsmall";
+  src: url("/assets/Capsmall.ttf") format("truetype");
+}
+
 * {
  color: white;
  margin: 0;
@@ -50,6 +55,8 @@ div.body {
 }
 
 div.head {
+ font-family: 'Capsmall', cursive;
+ font-size: 500%;
 }
 
 div.head p {
