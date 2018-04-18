@@ -6,6 +6,11 @@ Version: 1
 */
 
 @font-face {
+  font-family: 'ArchitectsDaughter';
+  src: url('/assets-new/ArchitectsDaughter.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Beliday';
   src: url('/assets-new/Beliday.ttf') format('truetype');
 }
@@ -27,7 +32,7 @@ a {
 
 body {
  background-color: #000;
- font-family: 'Beliday';
+ font-family: 'ArchitectsDaughter';
  font-size: 110%;
  margin: 25px 0;
 }
