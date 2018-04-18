@@ -6,8 +6,13 @@ Version: 1
 */
 
 @font-face {
-  font-family: "Capsmall";
-  src: url("/assets/Capsmall.ttf") format("truetype");
+  font-family: 'Beliday';
+  src: url('/assets-new/Beliday.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Capsmall';
+  src: url('/assets-new/Capsmall.ttf') format('truetype');
 }
 
 * {
@@ -22,7 +27,7 @@ a {
 
 body {
  background-color: #000;
- font-family: comic sans, comic sans ms, cursive;
+ font-family: 'Beliday';
  font-size: 110%;
  margin: 25px 0;
 }
@@ -56,7 +61,7 @@ div.body {
 }
 
 div.head {
- font-family: 'Capsmall', cursive;
+ font-family: 'Capsmall';
  font-size: 500%;
 }
 
