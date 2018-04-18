@@ -11,11 +11,6 @@ Version: 1
 }
 
 @font-face {
-  font-family: 'Beliday';
-  src: url('/assets-new/Beliday.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'Capsmall';
   src: url('/assets-new/Capsmall.ttf') format('truetype');
 }
